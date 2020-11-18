@@ -1,3 +1,6 @@
+![build](https://travis-ci.org/narendrasoni1989/dataloader.svg?branch=master)
+[![codecov](https://codecov.io/gh/narendrasoni1989/dataloader/branch/master/graph/badge.svg?token=Y5QH4WI4K6)](https://codecov.io/gh/narendrasoni1989/dataloader)
+
 # Getting Started
 
 ###  Dataloader
