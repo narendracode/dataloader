@@ -7,3 +7,6 @@ jdk: oraclejdk11
 
 script:
   - ./gradlew clean build --scan -s
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
