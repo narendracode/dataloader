@@ -4,7 +4,6 @@ plugins {
 	id 'java'
 	id 'jacoco'
 }
-
 group = 'com.app'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
@@ -35,11 +34,6 @@ dependencies {
 	testImplementation 'org.testcontainers:junit-jupiter'
 	testImplementation 'org.testcontainers:mysql'
 	testImplementation 'org.testcontainers:testcontainers'
-}
-
-buildScan {
-  licenseAgreementUrl = "https://gradle.com/terms-of-service"
-  licenseAgree = "yes"
 }
 
 
