@@ -37,6 +37,12 @@ dependencies {
 	testImplementation 'org.testcontainers:testcontainers'
 }
 
+buildScan {
+  licenseAgreementUrl = "https://gradle.com/terms-of-service"
+  licenseAgree = "yes"
+}
+
+
 jacoco {
     toolVersion = "0.8.5"
     reportsDir = file("$buildDir/jacoco")
